@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;900&display=swap');
+
+body {
+    width: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #5ADAC9;
+    font-family: "Noto Sans KR", sans-serif;
+    font-stretch: ultra-expanded;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900 bold;
+}
+
+h3 {
+    font-size: 25px;
+    margin:0;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.navigation-bar_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.playlist {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.imagesection {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    height: 140px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 12.5%;
+}
+
+.random,
+.love,
+.by-divay {
+    margin: 0;
+}
+
+.random,
+.love {
+    font-size: 40px;
+}
+
+.by-divay {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.iconsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.playbtn,
+.heartbtn,
+.plusbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.playbtn {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 12.5px;
+    width: 175px;
+    height: 60px;
+    box-shadow: 0px 4px 0px 1px #161920;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.fa-play {
+    margin-right: 15px;
+}
+
+.heartbtn,
+.plusbtn {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 4px 0px 1px #161920;
+}
+
+.colorsection {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mata,
+.atti,
+.try,
+.sun {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.tomato {
+    height: 60px;
+    width: 60px;
+    background-color: #F85A2A;
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+.pink {
+    height: 60px;
+    width: 60px;
+    background-color: #FF89BB;
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+.blue {
+    height: 60px;
+    width: 60px;
+    background-color: #1947E5;
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+.bluegreen {
+    height: 60px;
+    width: 60px;
+    background-color: #00C6AD;
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+.tomato,
+.pink,
+.blue,
+.bluegreen {
+    margin-right: 20px;
+}
+
+.span1,
+.span2,
+.span3,
+.span4 {
+    font-weight: 100;
+    font-size: 17px;
+    color: #9A9CA4;
+}
