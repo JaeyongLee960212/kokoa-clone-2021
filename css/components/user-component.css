@@ -53,3 +53,8 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.fa-exclamation-circle {
+  margin-left: 10px;
+  color: orangered;
+}
